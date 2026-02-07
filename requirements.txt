@@ -1,0 +1,56 @@
+
+
+# Core ML Libraries
+# -----------------
+pandas==2.1.0
+numpy==1.24.3
+scikit-learn==1.3.0
+scipy==1.11.3
+
+# Recommendation Frameworks (Tier 1 Requirement)
+# -----------------------------------------------
+scikit-surprise==1.1.3
+
+# Embeddings (Tier 1 Requirement)
+# --------------------------------
+sentence-transformers==2.2.2
+torch==2.1.0
+
+# Vector Database (Tier 1 Requirement)
+# -------------------------------------
+faiss-cpu==1.7.4
+
+# API Framework (Tier 1 Requirement)
+# -----------------------------------
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database (Tier 1 Requirement)
+# ------------------------------
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+
+# ML Lifecycle (Tier 1 Requirement)
+# ----------------------------------
+mlflow==2.8.1
+
+# UI Framework (Tier 1 Requirement)
+# ----------------------------------
+gradio==4.12.0
+
+# Utilities
+# ---------
+python-dotenv==1.0.0
+requests==2.31.0
+pillow==10.1.0
+tqdm==4.66.1
+
+# Testing
+# -------
+pytest==7.4.3
+httpx==0.25.1
+
+# Optional: For better performance with GPU
+# ------------------------------------------
+# torch==2.1.0+cu118  # Uncomment for CUDA 11.8 support
+# faiss-gpu==1.7.4    # Uncomment for GPU-accelerated FAISS
